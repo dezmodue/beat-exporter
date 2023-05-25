@@ -1,0 +1,1 @@
+docker buildx build --push --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --tag dezmodue/beat-exporter:0.4.0 .
